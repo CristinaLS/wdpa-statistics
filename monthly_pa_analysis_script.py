@@ -89,13 +89,13 @@ print ("Stage 0.4 PA sites")
 
 # for the inputfolder, list the feature classes that are polygons and join the file path componentes to specify the exact polygon input for the script
 #for dirpath, dirnames, filenames in arcpy.da.Walk(inputfolder, datatype="FeatureClass", type="Polygon"):
-  for filename in filenames:
-    in_polygons = os.path.join(dirpath,filename)
+  #for filename in filenames:
+    #in_polygons = os.path.join(dirpath,filename)
 
 # for the inputfolder, list the feature classes that are points and join the file path componentes to specify the exact point input for the script
-for dirpath, dirnames, filenames in arcpy.da.Walk(inputfolder, datatype="FeatureClass", type="Multipoint"):
-  for filename in filenames:
-    in_points = os.path.join(dirpath,filename)
+#for dirpath, dirnames, filenames in arcpy.da.Walk(inputfolder, datatype="FeatureClass", type="Multipoint"):
+  #for filename in filenames:
+    #in_points = os.path.join(dirpath,filename)
 ##########################################################################
 
 # define the protected area point and polygon inputs [doing this manually or now]
